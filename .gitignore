@@ -1,0 +1,5 @@
+var/
+etc/
+node_modules/
+*.log
+*~

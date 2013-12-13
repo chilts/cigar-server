@@ -1,0 +1,28 @@
+{
+  "name": "cigar-server",
+  "description": "The server for Cigar. Receives data, also serves pages with info.",
+  "version": "0.1.0",
+  "bin": {
+    "cigar-server": "./cigar-server.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://chilts.mit-license.org/2013/"
+    }
+  ],
+  "keywords": [
+    "cigar",
+    "cigar-server"
+  ],
+  "dependencies": {
+    "async": "~0.2.9",
+    "xtend": "~2.1.1",
+    "flake": "~0.5.0",
+    "jade": "~0.35.0",
+    "express": "~3.4.7",
+    "level": "~0.18.0",
+    "argh": "~0.1.1",
+    "log2": "~0.1.1"
+  }
+}
